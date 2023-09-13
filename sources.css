@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.main{
+    /* background */
+    width: 100%;
+    background-image: url(light-img1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 18.2vh;
+    
+
+}
+
+.navbar{
+    /* upper part */
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    /* icon for logo */
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+
+
+.menu{
+    /* tabs */
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15.5px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 6px 25px;
+    transition: 0.4s ease-in-out;
+    border: 2px solid red;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    /* division for search area */
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+
+
+}
+
+.srch{
+    /* search box type to txt area */
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid red;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    /* search button */
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid red;
+    margin-top: 13px;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    /* txt box border */
+    outline: none;
+}
+
+
+
+.logo img{
+    /* logo */
+    float: left;
+    width: 130px;
+    height: auto;
+}
+
+.title h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.title h1::after{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #ff7200;
+    display: block;
+    margin: auto;
+}
+
+.services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px;
+    padding: 20px 20px;
+    background-color: #f7a35e;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.card:hover{
+    background-color: #ebb68c ;
+    transition: 0.04s ease;
+}
+
+.card .icon{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.card h2{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.card p{
+    margin-bottom: 10px;
+    color: black;
+}
+
+.section{
+    width: 100%;
+    background-image: url(light-img1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
