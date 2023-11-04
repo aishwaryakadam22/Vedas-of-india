@@ -1,2 +1,2 @@
 # Vedas of india
- Vedas and their types
+Discover the Vedas and their types through a website project. Crafted with HTML, CSS, and JavaScript for a rich learning experience.
